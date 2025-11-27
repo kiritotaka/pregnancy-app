@@ -1,0 +1,5 @@
+.v-text-field__slot input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important; /* Or your desired background color */
+    -webkit-text-fill-color: black !important; /* Or your desired text color */
+    transition: background-color 5000s ease-in-out 0s; /* Prevents immediate color change */
+}
